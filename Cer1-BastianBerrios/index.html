@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Certamen 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mystyle.css">
+  </head>
+  <body>
+    <!--Nav bar de la pagina--> 
+    <nav class="navbar navbar-expand-lg" style="background-color: #D7EBCF;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Lee</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fila2">Reseñas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fila3">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--Seccion 1-->
+    <div class="container-fluid">
+        <div id="fila1" class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col col-md-4 px-00">
+                    <img id=libro1 src="img/Libro.png" alt="Portada Pagina Web" class="img-fluid">
+                </div>
+                <div class="col">
+                    <h1>Lee</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, optio? Tenetur incidunt nihil nostrum culpa iusto eaque doloribus praesentium laborum!
+                    </p>
+                    <button type="button" class="btn btn-primary">Comenzar</button>
+                </div>
+        </div>
+    <!--Seccion de Cards-->
+        <div id="fila2" class="row">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col-lg-3 mb-6 col-0">
+                  <div class="card">
+                    <img src="img/libro1.png" alt="1er libro">
+                    <div class="card-body">
+                      <h5 class="card-title">Entremuros</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eum fugiat?</p>
+                      <a href="LinkLibro1">Leer reseña</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 mb-6 col-12">
+                  <div class="card">
+                    <img src="img/libro2.png" alt="2do libro">
+                    <div class="card-body">
+                      <h5 class="card-title">Momo</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, praesentium in?</p>
+                      <a href="LinkLibro1">Leer reseña</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-mb-6 col-12">
+                    <div class="card">
+                        <img src="img/libro3.png" alt="3er libro">
+                      <div class="card-body">
+                        <h5 class="card-title">Nunca seremos estrellas de rock</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, dolorem sed!</p>
+                        <a href="LinkLibro1">Leer reseña</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-mb-6 col-12">
+                    <div class="card">
+                        <img src="img/libro4.png" alt="4to libro">
+                      <div class="card-body">
+                        <h5 class="card-title">Brother</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, voluptatum magni!</p>
+                        <a href="LinkLibro1">Leer reseña</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+<!--Seccion de Contactos-->
+        <div id="fila3" class="row row-cols-1 row-cols-md-2 row-cols-lg-6">
+            <div class="col-6">
+                <h1>Lee</h1>
+                <p>Lorem, ipsum dolor. #123</p>
+                <p>Dessarollado por ૮ ˶ᵔ ᵕ ᵔ˶ ა <br>
+                Bastian Berrios</p>
+            </div>
+            <div class="col-6" >
+                <form>
+                    <div class="mb">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Juanin Juan Harry">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

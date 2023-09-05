@@ -1,0 +1,20 @@
+#fila1,#fila2,#fila3{
+    height: auto;
+    width: auto;
+}
+
+#fila3{
+    background-color: #D7EBCF;
+}
+
+#libro1{
+    width: 100%;
+    height: auto;
+  }
+
+  .btn-primary:hover {
+    color: #000;
+    background-color: #D7EBCF;
+    border-color: #5b288e;
+
+  }
